@@ -10,7 +10,7 @@
 <!-- ADD Open Graph Meta for title, description, image, url, type -->
 <meta property="og:title" content="Civic Lens">
 <meta property="og:type" content="img/jpeg">
-<meta property="og:description" content="">
+<meta property="og:description" content="An independent news organization, committed to providing unbaised reporting and truth-driven storytelling.">
 <meta property="og;url" content="index.html">
 <meta property="og:image" content="">
 
@@ -115,7 +115,7 @@
   <section id="notifications">      
       <h2>Stay Informed. Stay Empowered.</h2>
       <p>Receive text messages with the news you want to know.</p>
-      <form> 
+      <form action="post" method="https://wp.zybooks.com/form-viewer.php"> 
         <label for="full-name">Full Name</label>
         <input id="full-name" type="text" name="full-name" autocomplete="name">
         <label for="phone-num">Mobile</label>
@@ -137,7 +137,7 @@
           <input id="finance" type="checkbox" name="notif-pref">
           <label for="finance">Financial</label>
         </fieldset>
-        Subscribe
+        <input id="submit-bttn" type="submit" name="submit-bttn" value="Subscribe">
       </form> 
   </section>   
 </main>
