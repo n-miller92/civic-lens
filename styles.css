@@ -39,6 +39,17 @@ body.dark-mode {
 }
 
 /* ///ADD/// Skip Link Styles */
+.sr-only {
+  background: var(--news-flash);
+  height: 1rem;
+  padding: 1rem;
+  position: absolute;
+  transform: translateX(-150%);
+  transition: transform 0.2s;
+}
+.sr-only:focus {
+  transform: translateX(0%);
+}
 
 /* ///ADD/// Navigation Styles */
 
