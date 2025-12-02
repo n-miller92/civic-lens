@@ -76,9 +76,11 @@
     <section> 
       <h3>Unequal Justice: How Bail Systems Harm the Poor</h3>
       <p>An investigative series on cash bail and its disproportionate impact.</p>
-    </section>    
+    </section>
+    <section>    
       <h3>Invisible Work: The Lives of Migrant Caregivers</h3>
       <p>Humanizing the labor that keeps households and economies afloat.</p>
+    </section>
     <section> 
       <h3>Redlined Still: A New Map of Modern-Day Housing Discrimination</h3>
       <p>Data visualization showing systemic inequality in real estate today.</p>
@@ -120,26 +122,32 @@
       <h2>Stay Informed. Stay Empowered.</h2>
       <p>Receive text messages with the news you want to know.</p>
       <form action="https://wp.zybooks.com/form-viewer.php" method="post"> 
-        <label for="full-name">Full Name</label>
-        <input id="full-name" type="text" name="full-name" autocomplete="name">
-        <label for="phone-num">Mobile</label>
-        <input id="phone-num" type="tel" name="phone-num" autocomplete="tel">
+        <section id="txt-input">
+          <label for="full-name">Name</label>
+          <input id="full-name" type="text" name="full-name" autocomplete="name">
+        </section>
+        <section id="txt-input">
+          <label for="phone-num">Mobile</label>
+          <input id="phone-num" type="tel" name="phone-num" autocomplete="tel">
+        </section>
         <fieldset>
           <legend>Notification Preferences</legend>
-          <input id="breaking" type="checkbox" name="notif-pref">
-          <label for="breaking">Breaking News</label>
-          <input id="politics" type="checkbox" name="notif-pref">
-          <label for="politics">Politics</label>
-          <input id="weather" type="checkbox" name="notif-pref">
-          <label for="weather">Weather</label>
-          <input id="sports" type="checkbox" name="notif-pref">
-          <label for="sports">Sports</label>
-          <input id="entertain" type="checkbox" name="notif-pref">
-          <label for="entertain">Entertainment</label>
-          <input id="world" type="checkbox" name="notif-pref">
-          <label for="world">World</label>
-          <input id="finance" type="checkbox" name="notif-pref">
-          <label for="finance">Financial</label>
+          <section id="pref">
+            <input id="breaking" type="checkbox" name="notif-pref">
+            <label for="breaking">Breaking News</label>
+            <input id="politics" type="checkbox" name="notif-pref">
+            <label for="politics">Politics</label>
+            <input id="weather" type="checkbox" name="notif-pref">
+            <label for="weather">Weather</label>
+            <input id="sports" type="checkbox" name="notif-pref">
+            <label for="sports">Sports</label>
+            <input id="entertain" type="checkbox" name="notif-pref">
+            <label for="entertain">Entertainment</label>
+            <input id="world" type="checkbox" name="notif-pref">
+            <label for="world">World</label>
+            <input id="finance" type="checkbox" name="notif-pref">
+            <label for="finance">Financial</label>
+          </section>  
         </fieldset>
         <input id="submit-bttn" type="submit" name="submit-bttn" value="Subscribe">
       </form> 
