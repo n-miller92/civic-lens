@@ -143,6 +143,29 @@ h1{
   padding: 5px;
   margin: 15px;
 }
+#breaking-news section{
+  background-color: var(--news-flash);
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 10px;
+  color: var(--watchdog-white);
+  border: solid thin var(--truth-text);
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 4px var(--truth-text);
+  line-height: 1.5;
+}
+#breaking-news h2{
+  padding-left: 15px;
+}
+#breaking-news h3{
+  border-bottom: solid var(--watchdog-white);
+  border-width: thin;
+  padding-bottom: 0;
+}
+#breaking-news p{
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
 
 /* ///ADD/// Global Text Styles */
 h2{
