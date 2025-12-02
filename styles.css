@@ -141,7 +141,10 @@ h1{
 }
 #welcome .tagline{
   padding: 0.5rem;
-  margin: 1rem;
+  margin-top: 1rem;
+}
+#welcome p{
+  padding: 0;
 }
 #breaking-news section{
   background-color: var(--news-flash);
@@ -167,6 +170,7 @@ h1{
   padding-top: 0.75rem;
   padding-bottom: 0.5rem;
   font-size: 1rem;
+  padding-left: 0;
 }
 #featured-articles section{
   max-width: 420px;
@@ -189,6 +193,7 @@ h1{
   padding-top: 0.75rem;
   padding-bottom: 0.5rem;
   font-size: 1rem;
+  padding-left: 0;
 }
 #notifications h2, p{
   padding-left: 1rem;
