@@ -86,7 +86,7 @@ body.dark-mode {
 }
 
 /* ///ADD/// Skip Link Styles */
-.sr-only {
+.skip-link{
   background: var(--news-flash);
   height: 1rem;
   padding: 1rem;
@@ -94,20 +94,21 @@ body.dark-mode {
   transform: translateX(-150%);
   transition: transform 0.2s;
 }
-.sr-only:focus {
+.skip-link:focus{
   transform: translateX(0%);
 }
 
 /* ///ADD/// Navigation Styles */
-nav {
+nav{
   grid-column: 1 / -1;
+  padding-bottom: 10px;
 }
 nav a{
   text-decoration: none;
   color: var(--watchdog-white);
   background-color: var(--news-flash);
   padding: 1rem;
-  margin: 0.5rem 5rem;
+  margin: 0.5rem 1rem;
   font-family: var(--font-body);
   text-align: center;
   font-variation-settings: "wght" 550;
@@ -116,13 +117,47 @@ nav a{
 
 
 /* ///ADD/// Global Layout Styles */
-a {
+a{
   display: block;
   padding: 1rem;
 }
+header{
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+}
+h1{
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  padding: 10px;
+}
+.tagline{
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  padding: 10px;
+}
+#welcome{
+  margin: 0 auto;
+  padding: 15px;
+}
+#welcome .tagline{
+  padding: 5px;
+  margin: 15px;
+}
 
 /* ///ADD/// Global Text Styles */
-
+h2{
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  padding-bottom: 10px;
+}
+p {
+  font-family: var(--font-body);
+}
 
 /* ///ADD/// medium styles 620px */
 @media screen and (min-width: 620px) {
@@ -130,7 +165,7 @@ a {
   display: flex;
   justify-content: flex-start;
 }
-nav a {
+  nav a {
   padding: 0.5rem;
   margin: 0.5rem;
 }
@@ -147,5 +182,4 @@ nav a {
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
-
 }
