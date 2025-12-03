@@ -117,7 +117,11 @@ nav a{
 #menu-toggle{
   visibility: hidden;
 }
-
+a:hover{
+  background-color: var(--blue-bulletin);
+  transition: var(--transition);
+  border: solid thin var(--news-flash);
+}
 
 /* ///ADD/// Global Layout Styles */
 a{
@@ -175,6 +179,9 @@ h1{
   font-size: 1rem;
   padding-left: 0;
 }
+video{
+  width: 100%;
+}
 #featured-articles section{
   max-width: 420px;
   margin: 0 auto;
@@ -198,9 +205,7 @@ h1{
   font-size: 1rem;
   padding-left: 0;
 }
-video{
-  width: 100%;
-}
+
 #notifications h2, p{
   padding-left: 1rem;
 }
@@ -247,6 +252,7 @@ legend{
   padding: 0.75rem 0;
   margin: 0 auto;
   width: 95%;
+  height: 2.5rem;
   background-color: var(--blue-bulletin);
   text-transform: uppercase;
   border-style: outset;
@@ -254,7 +260,11 @@ legend{
   color: var(--watchdog-white);
   font-weight: bold;
 }
-
+#submit-bttn:hover{
+  background-color: var(--watchdog-white);
+  color: var(--blue-bulletin);
+  border: solid thin var(--blue-bulletin);
+}
 footer h2{
   padding: 2.5rem 1rem 0.75rem 1.25rem;
   
@@ -270,6 +280,11 @@ footer a{
   height: fit-content;
   width: max-content;
   display: inline-block;
+}
+footer a:hover{
+  background-color: var(--blue-bulletin);
+  transition: var(--transition);
+  border: solid thin var(--news-flash);
 }
 footer p{
   padding: 1.25rem 0;
